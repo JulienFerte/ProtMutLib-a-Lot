@@ -45,11 +45,11 @@ in the Terminal from the fancied folder.
 
 ## Installation of the MySQL database
 
-3) Edit the file mysql/db_libalot_create_users.sql in order to choose the passwords for the two MySQL users 'LibALotEngine'@'%' and 'LibALotUser'@'%'.
+3) Edit the file `mysql/db_libalot_create_users.sql` in order to choose the passwords for the two MySQL users `'LibALotEngine'@'%'` and `'LibALotUser'@'%'`.
 
 4) On a server where you have MySQL installed, launch mysql with enough rights to execute the following scripts:
-- mysql/db_libalot.sql
-- mysql/db_libalot_create_users.sql
+- `mysql/db_libalot.sql`
+- `mysql/db_libalot_create_users.sql`
 
 You can use the MySQL instruction `source __name_of_file__`.
 
