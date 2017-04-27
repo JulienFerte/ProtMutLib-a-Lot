@@ -64,9 +64,9 @@ You can use the MySQL instruction `source __name_of_file__`.
 8) Configure your local copy of `.LibALot.conf`:
 
 - open it as a text file, you notice it is an XML file,
-- at the node `<mysql>` which is under the node `<servers>`, change the property ip to the IP address of the server where your MySQL database is stored,
+- at the node `<mysql>` which is under the node `<servers>`, change the property `ip` to the IP address of the server where your MySQL database is stored,
 - at the nodes `<client>` and `<engine>` underneath the above `<mysql>`, change the passwords to those you have selected,
-- at the node `<core>` which is under the node `<servers>`, change the property ip to the IP address of the server where your copy of ProtMutLib-a-Lot is running.
+- at the node `<core>` which is under the node `<servers>`, change the property `ip` to the IP address of the server where your copy of ProtMutLib-a-Lot is running.
 
 9) Execute the script `./compile.sh` in the folder `server_side/`. An executable `LibALot.run` should appear in the folder `server_side/`
 
