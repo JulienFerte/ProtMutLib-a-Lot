@@ -75,7 +75,7 @@ Then go into the folder `Module2/` and execute the script `./compile.sh`. A file
 
 ## Web page frontend
 
-11) The files for interfacing with ProtMutLib-a-Lot are in the folder `client_side/`.
+11) The files for interfacing with ProtMutLib-a-Lot are in the folder `client_side/`. A mock-up is there.
 
 # Launch
 
