@@ -24,7 +24,8 @@ The libraries needed for gcc are:
 - cURL (development files),
 - ncurses and its library menu (development files),
 - libxml2-dev,
-- libmysqlclient-dev
+- libmysqlclient-dev,
+- libpython-all-dev.
 
 # Installation of the server
 
