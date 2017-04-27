@@ -33,7 +33,7 @@ The libraries needed for gcc are:
 
 1) clone the GitHub repository on your server. It can be done by executing
 
-git clone https://github.com/JulienFerte/ProtMutLib-a-Lot
+`git clone https://github.com/JulienFerte/ProtMutLib-a-Lot`
 
 in the Terminal from the desired folder.
 
