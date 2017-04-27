@@ -55,13 +55,13 @@ You can use the MySQL instruction `source __name_of_file__`.
 
 ## Installation of the server
 
-5) From your local copy of ProtMutLib-a-Lot, in the folder `server_side/proteomics/lib/`, create a link named "msgpack" to the folder containing your local copy of MsgPack.
+5) From your local copy of ProtMutLib-a-Lot, in the folder `server_side/proteomics/lib/`, create a link named `msgpack` to the folder containing your local copy of MsgPack.
 
-6) Execute the bash script `./compile.sh` in the folder server_side/proteomics/lib/
+6) Execute the bash script `./compile.sh` in the folder `server_side/proteomics/lib/`
 
-7) In the file server_side/configuration.c, at the line 114, change the path to the absolute path of your configuration file .LibALot.conf included in your local GitHub repository.
+7) In the file `server_side/configuration.c`, at the line 114, change the path to the absolute path of your configuration file `.LibALot.conf` included in your local GitHub repository.
 
-8) Configure your local copy of .LibALot.conf:
+8) Configure your local copy of `.LibALot.conf`:
 
 - open it as a text file, you notice it is an XML file,
 - at the node `<mysql>` which is under the node `<servers>`, change the property ip to the IP address of the server where your MySQL database is stored,
