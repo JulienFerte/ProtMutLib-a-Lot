@@ -9,7 +9,7 @@ ProtMutLib-a-Lot uses:
 - the above necessarily uses MsgPack for C,
 - the CIF file parser made by the RCSB, and found at:
 
-https://sw-tools.rcsb.org/apps/CIFPARSE-OBJ/source/source.html.
+https://sw-tools.rcsb.org/apps/CIFPARSE-OBJ/source/source.html
 
 A copy of a version of the CIF file format parser working with the current version of ProtMutLib-a-Lot is included in this GitHub repository. All credits about the CIF file format parser go to the RCSB.
 
