@@ -79,7 +79,7 @@ Then go into the folder `Module2/` and execute the script `./compile.sh`. A file
 
 # Launch
 
-From the Terminal, at the folder `server_side/`, execute `./LibALot.run`
+From the Terminal, at the folder `server_side/`, execute `./LibALot.run`.
 
 # Bugs?
 
