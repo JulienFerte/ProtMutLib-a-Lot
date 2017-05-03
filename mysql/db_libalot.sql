@@ -1,3 +1,5 @@
+create database DB_LIBALOT;
+
 use DB_LIBALOT;
 
 /*****

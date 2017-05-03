@@ -9,7 +9,7 @@
 
 #include "../../log_record.h"
 
-bool libmodule2_need( module_context* context, size_t sequence_id, size_t mutation_id, size_t structure_id ) {
+bool module2_need( module_context* context, size_t sequence_id, size_t mutation_id, size_t structure_id ) {
 	bool result = false;
 
 	write_log_module( context->configuration, context->module_id, LOG_MODULE_EVENT, "Testing if Module2 needed on %zd %zd %zd", sequence_id, mutation_id, structure_id );
@@ -32,7 +32,7 @@ bool libmodule2_need( module_context* context, size_t sequence_id, size_t mutati
 	return result;
 }
 
-unsigned long libmodule2_exec( module_context* context, size_t sequence_id, size_t mutation_id, size_t structure_id ) {
+unsigned long module2_exec( module_context* context, size_t sequence_id, size_t mutation_id, size_t structure_id ) {
 	unsigned long result = 0;
 
 	write_log_module( context->configuration, context->module_id, LOG_MODULE_EVENT, "Launching Module2 on %zd %zd %zd", sequence_id, mutation_id, structure_id );

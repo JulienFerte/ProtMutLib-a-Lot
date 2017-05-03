@@ -15,7 +15,6 @@ grant select on `TB_MUTATION`           to 'LibALotUser'@'%';
 grant select on `TB_POINT_MUTATION`     to 'LibALotUser'@'%';
 grant select on `TB_PROTEIN`            to 'LibALotUser'@'%';
 grant select on `TB_SEQUENCE`           to 'LibALotUser'@'%';
-grant select on `TB_SEQUENCE_STRUCTURE` to 'LibALotUser'@'%';
 grant select on `TB_STRUCTURE`          to 'LibALotUser'@'%';
 grant select on `VW_DISTRIBUTION`       to 'LibALotUser'@'%';
 grant select on `VW_DISTRIBUTION_AUX`   to 'LibALotUser'@'%';
